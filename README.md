@@ -1,3 +1,28 @@
+Fork of getID3
+==============
+
+The aim of this fork is to maintain a stable, namespaced and PSR-4 compliant
+version of the library getID3 via periodic merges of the master branch (1.9)
+into the v2.0 branch, whose status is dev/beta since May 2019.
+
+To use it, just use a standard require command, without need to change minimum
+stability:
+
+```bash
+$ composer require "sempia/getid3"
+```
+
+The namespace of the library is kept (`JamesHeinrich\GetID3\`), so you don't
+need to change anything in the code. This package replaces `james-heinrich/getid3`
+at the same version numbers, so it is a drop-in substitute for the upstream 2.0
+betas. It is not compatible with the 1.9 api (global classes getID3 and getid3_lib).
+
+The version numbering follows the upstream 2.0 branch: 2.0.x, where each
+release integrates the fixes merged from the upstream 1.9 branch.
+
+**Below is the official readme**
+
+
 getID3
 ======
 
